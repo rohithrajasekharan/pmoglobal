@@ -9,7 +9,7 @@ export default function Expertise() {
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
         <div className="space-y-3">
-          <p className="inline-block px-3 py-1 text-sm font-bold tracking-tighter border-l-4 border-red-500 bg-gray-200">
+          <p className="inline-block px-3 py-1 text-sm tracking-tighter border-l-4 border-red-500 bg-gray-200">
             Our Expertise
           </p>
           <h2 className="mx-auto max-w-[700px] text-gray-500 md:text-2xl/relaxed lg:text-2xl/relaxed xl:text-2xl/relaxed dark:text-gray-400">

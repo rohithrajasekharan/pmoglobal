@@ -16,7 +16,7 @@ export default function Component() {
         <div className="w-[90%] sm:w-[90%] md:w-[90%] lg:w-[70%] bg-white p-6 md:p-[5%] rounded-lg md:mt-[-12rem]">
           <div  className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-4">
-              <div className="inline-block rounded-lg bg-gray-200 border-l-4 border-red-500 px-3 py-1 text-sm font-medium">
+              <div className="inline-block bg-gray-200 border-l-4 border-red-500 px-3 py-1 text-sm font-medium">
                 A Speaking Experience
               </div>
               <h2 className="text-2xl font-bold tracking-tighter">

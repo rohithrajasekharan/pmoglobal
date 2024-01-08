@@ -21,10 +21,10 @@ export default function Partner() {
             Partner with PMO Global
           </h2>
           <p className="text-gray-900 mr-4">
-            Choosing PMO Global means partnering with a dedicated team committed
+           {` Choosing PMO Global means partnering with a dedicated team committed
             to ensuring your project's triumph. We prioritize collaboration,
             innovation, and reliability, tailoring our expertise to meet your
-            unique needs.
+            unique needs.`}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2 mt-[60px] space-y-4">
             <div className="flex items-center text-black">

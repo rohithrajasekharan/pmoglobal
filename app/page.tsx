@@ -1,11 +1,11 @@
-import Banner from "@/components/Banner";
-import Expertise from "@/components/Expertise";
-import Experience from "@/components/Experience";
-import Partner from "@/components/Partner";
-import Projects from "@/components/Projects";
-import Client from "@/components/Client";
-import Contact from "@/components/Contact";
-import News from "@/components/News";
+import Banner from "@/components/home/Banner";
+import Expertise from "@/components/home/Expertise";
+import Experience from "@/components/home/Experience";
+import Partner from "@/components/home/Partner";
+import Projects from "@/components/home/Projects";
+import Client from "@/components/home/Client";
+import Contact from "@/components/home/Contact";
+import News from "@/components/home/News";
 
 export default function Home() {
   return (

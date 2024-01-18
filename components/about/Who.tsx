@@ -24,7 +24,7 @@ export default function Who() {
               buildings in the marine, offshore and renewable sectors. Through our extensive knowledge of project
               management skills, best practices, highly skilled resources, proven methodologies, and advanced tools, we
               operate to foster an environment of collaboration and innovation, ensuring objectives are met at every
-              stage. We understand our clients' core needs and engage with them successfully from BID to BUILD.
+              stage. We understand our clients&apos; core needs and engage with them successfully from BID to BUILD.
             </p>
             <p className="mt-4 text-sm text-gray-700">
               We have a focused outlook to provide clients with professional value-added services conducted in time, to

@@ -27,7 +27,7 @@ export default function Collaborators() {
           <div className="text-white text-left space-y-4 col-span-1">
             <h2 className="text-xl">PMO & PWO</h2>
             <p className="text-white text-sm">
-              Powering Nigeria's future together in Offshore Living Quarters and
+              Powering Nigeria&apos;s future together in Offshore Living Quarters and
               Technical Building EPC Contracts - A synergy of excellence!
             </p>
           </div>

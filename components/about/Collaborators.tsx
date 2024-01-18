@@ -6,7 +6,7 @@ export default function Collaborators() {
       <div className="inline-block bg-gray-200 border-l-4 border-red-500 px-3 py-2 text-sm font-medium mb-10">
         Collaborators
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[80%]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[80%] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 bg-zinc-800 bg-opacity-95 p-4">
           <div className="w-full h-auto col-span-2">
             <Image src="/collab1.png" height={300} width={600} alt="" />

@@ -1,6 +1,6 @@
 export default function Who() {
     return (
-      <div className="flex flex-wrap h-screen justify-center mb-12">
+      <div className="flex flex-wrap p-8 justify-center mb-12">
         <div className="flex items-center justify-center">
           <img
             alt="Industrial landscape"

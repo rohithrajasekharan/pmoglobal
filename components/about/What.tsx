@@ -1,11 +1,11 @@
 export default function What() {
     return (
-        <div key="1" className="relative w-full bg-gray-200 py-32">
-        <div className="flex items-center justify-center">
+        <div key="1" className="relative w-full bg-gray-200">
+        <div className="flex items-center justify-center mt-20 mb-48">
           <div className="w-[90%] sm:w-[90%] md:w-[90%] lg:w-[70%] bg-white p-6 md:p-[5%] rounded-lg">
             <div  className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <div className="inline-block bg-gray-200 border-l-4 border-red-500 px-3 py-1 text-sm font-medium">
+                <div className="inline-block bg-gray-200 border-l-4 border-red-500 px-3 py-2 py-1 text-sm font-medium">
                   What We Do
                 </div>
                 <h2 className="text-2xl font-bold tracking-tighter">

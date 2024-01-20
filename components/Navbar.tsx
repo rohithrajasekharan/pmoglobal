@@ -40,10 +40,10 @@ export default function Navbar(props: ComponentProps) {
                     <Link href="/about">About Us</Link>
                   </li>
                   <li className="my-8 text-lg text-white">
-                    <Link href="#">Our Expertise</Link>
+                    <Link href="/expertise">Our Expertise</Link>
                   </li>
                   <li className="my-8 text-lg text-white">
-                    <Link href="#">Our Projects</Link>
+                    <Link href="/projects">Our Projects</Link>
                   </li>
                   <li className="my-8 text-lg text-white">
                     <Link href="#">Spotlight</Link>
@@ -72,13 +72,13 @@ export default function Navbar(props: ComponentProps) {
         </li>
         <li>|</li>
         <li>
-          <Link className="text-sm lg:text-base" href="#">
+          <Link className="text-sm lg:text-base" href="/expertise">
             Our Expertise
           </Link>
         </li>
         <li>|</li>
         <li>
-          <Link className="text-sm lg:text-base" href="#">
+          <Link className="text-sm lg:text-base" href="/projects">
             Our Projects
           </Link>
         </li>
@@ -161,8 +161,8 @@ function FacebookIcon(props: IconProps) {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M20.5759 10.0578C20.5759 4.74701 15.9786 0.440887 10.3087 0.440887C4.63883 0.440887 0.0415039 4.74701 0.0415039 10.0578C0.0415039 14.8576 3.79545 18.8362 8.70446 19.5583V12.8385H6.09687V10.0578H8.70446V7.93904C8.70446 5.52924 10.2377 4.19705 12.5826 4.19705C13.7061 4.19705 14.8813 4.38509 14.8813 4.38509V6.75196H13.586C12.3113 6.75196 11.9125 7.49297 11.9125 8.2546V10.0578H14.7598L14.3051 12.8385H11.913V19.5591C16.822 18.8375 20.5759 14.8589 20.5759 10.0578Z"
         fill="white"
       />
@@ -177,13 +177,13 @@ function MenuIcon(props: IconProps) {
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       stroke="white"
       className="w-6 h-6"
     >
       <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
       />
     </svg>

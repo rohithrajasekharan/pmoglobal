@@ -263,16 +263,16 @@ function ArrowRightIcon(props: IconProps) {
       <path
         d="M16 21H28"
         stroke="#2B2B2B"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M23 16L28 21L23 26"
         stroke="#2B2B2B"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

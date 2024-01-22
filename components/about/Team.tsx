@@ -8,6 +8,8 @@ import {
   DialogContent,
   Dialog,
 } from "@/components/ui/dialog";
+import Image from "next/image";
+
 
 interface IconProps {
   className?: string;
@@ -25,7 +27,7 @@ export default function Team() {
         </h2>
         <div className="grid gap-8 mt-10 md:grid-cols-2 lg:grid-cols-4 items-center justify-items-center">
           <div className="relative max-w-[80%]">
-            <img
+            <Image
               alt="Team member"
               className="w-full h-auto aspect-[1/1] overflow-hidden object-cover object-center"
               height="300"
@@ -47,7 +49,7 @@ export default function Team() {
                   </DialogTrigger>
                   <DialogContent className="bg-black text-white sm:flex sm:max-w-[625px] border-none justify-items-center">
                     <div className="sm:w-1/3">
-                      <img
+                      <Image
                         alt="Person's name"
                         className="w-auto h-auto max-h-[350px] self-center"
                         height="200"
@@ -80,7 +82,7 @@ export default function Team() {
             </div>
           </div>
           <div className="relative max-w-[80%]">
-            <img
+            <Image
               alt="Team member"
               className="w-full h-auto aspect-[1/1] overflow-hidden object-cover object-center"
               height="300"
@@ -102,7 +104,7 @@ export default function Team() {
                   </DialogTrigger>
                   <DialogContent className="bg-black text-white sm:flex sm:max-w-[625px] border-none justify-items-center">
                     <div className="sm:w-1/3">
-                      <img
+                      <Image
                         alt="Person's name"
                         className="w-auto h-auto max-h-[350px] self-center"
                         height="200"
@@ -133,7 +135,7 @@ export default function Team() {
             </div>
           </div>
           <div className="relative max-w-[80%]">
-            <img
+            <Image
               alt="Team member"
               className="w-full h-auto aspect-[1/1] overflow-hidden object-cover object-center"
               height="300"
@@ -155,7 +157,7 @@ export default function Team() {
                   </DialogTrigger>
                   <DialogContent className="bg-black text-white sm:flex sm:max-w-[625px] border-none justify-items-center">
                     <div className="sm:w-1/3">
-                      <img
+                      <Image
                         alt="Person's name"
                         className="w-auto h-auto max-h-[350px] self-center"
                         height="200"
@@ -190,7 +192,7 @@ export default function Team() {
             </div>
           </div>
           <div className="relative max-w-[80%]">
-            <img
+            <Image
               alt="Team member"
               className="w-full h-auto aspect-[1/1] overflow-hidden object-cover object-center"
               height="300"
@@ -212,7 +214,7 @@ export default function Team() {
                   </DialogTrigger>
                   <DialogContent className="bg-black text-white sm:flex sm:max-w-[625px] border-none justify-items-center">
                     <div className="sm:w-1/3">
-                      <img
+                      <Image
                         alt="Person's name"
                         className="w-auto h-auto max-h-[350px] self-center"
                         height="200"

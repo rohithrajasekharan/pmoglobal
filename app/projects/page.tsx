@@ -1,5 +1,6 @@
 import Banner from "@/components/projects/Banner";
 import Deliveries from "@/components/projects/Deliveries";
+import Gallery from "@/components/projects/Gallery";
 import { Services } from "@/components/projects/Services";
 
 export default function Projects() {
@@ -8,6 +9,7 @@ export default function Projects() {
       <Banner />
       <Deliveries />
       <Services />
+      <Gallery />
     </main>
   );
 }

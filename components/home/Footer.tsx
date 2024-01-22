@@ -1,5 +1,6 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 interface IconProps {
   className?: string;
@@ -8,20 +9,20 @@ interface IconProps {
 export default function Footer() {
   return (
     <footer key="1" className="bg-[#1a1a1a] text-white">
-      <img
+      <Image
         alt="News image"
         className="w-full h-80"
-        height="400"
+        height={800}
         src="/footer_bg.png"
         style={{
           objectFit: "cover",
         }}
-        width="150"
+        width={1400}
       />
       <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 bottom-0">
         <div className="py-6 px-6">
           <a className="flex items-center" href="#">
-            <img alt="PMO Global Logo" className="h-8 mb-10" src="/logo_main.png" />
+            <Image alt="PMO Global Logo" className="h-8 mb-10" src="/logo_main.png" width={100} height={100}/>
           </a>
           <div className="mt-4 space-y-4">
             <div className="flex items-center">

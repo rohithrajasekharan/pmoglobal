@@ -24,7 +24,7 @@ export function Services() {
         <div className="flex flex-wrap justify-center">
           <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
           <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -39,7 +39,7 @@ export function Services() {
           </div>
           <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
           <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -54,7 +54,7 @@ export function Services() {
           </div>
           <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
           <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -69,7 +69,7 @@ export function Services() {
           </div>
           <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
           <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -84,7 +84,7 @@ export function Services() {
           </div>
           <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
           <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -99,7 +99,7 @@ export function Services() {
           </div>
           <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
           <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -118,7 +118,7 @@ export function Services() {
         <div className="flex flex-wrap justify-center">
           <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
           <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -133,7 +133,7 @@ export function Services() {
           </div>
           <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
           <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -148,7 +148,7 @@ export function Services() {
           </div>
           <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
           <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -163,7 +163,7 @@ export function Services() {
           </div>
           <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
           <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}

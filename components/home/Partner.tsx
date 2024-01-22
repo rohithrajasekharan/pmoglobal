@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface IconProps {
   className?: string;
 }
@@ -6,12 +8,12 @@ export default function Partner() {
     <div key="1" className="grid grid-cols-1 md:grid-cols-2">
       <div className=" bg-gray-800 flex flex-col"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center md:ml-[-80%] ">
-        <img
+        <Image
           alt="Logo"
           className="object-cover max-h-[60%] w-[100%]"
           height={640}
           src="/partner.png"
-          width={640}
+          width={940}
         />
         <div className="bg-cover bg-center flex-col items-start justify-center space-y-4 text-left max-w-[550px] ml-10 md:py-[150px] ">
           <div className="bg-gray-200 border-l-4 border-red-500 px-4 py-2 text-black text-sm max-w-[120px]">

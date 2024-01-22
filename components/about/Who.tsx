@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function Who() {
     return (
       <div className="flex flex-wrap p-8 justify-center mb-12">
         <div className="flex items-center justify-center">
-          <img
+          <Image
             alt="Industrial landscape"
             className="h-auto max-h-[80%] w-auto max-w-full"
             height="300"

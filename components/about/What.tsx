@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function What() {
     return (
         <div key="1" className="relative w-full bg-gray-200">
@@ -16,10 +18,10 @@ export default function What() {
                 </p>
               </div>
               <div className="w-full h-auto">
-                <img
+                <Image
                   alt="Placeholder"
                   className="aspect-[4/3] overflow-hidden rounded-lg object-cover object-center min-h-[300px]"
-                  height="auto"
+                  height={300}
                   src="/speaking_experience.png"
                   width="400"
                 />

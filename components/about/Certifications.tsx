@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Certifications() {
   return (
     <section className="w-full bg-[#F4F4F4] text-center pb-10">
@@ -7,7 +9,7 @@ export default function Certifications() {
       <div className="container px-4 md:px-6 max-w-[600px]">
         <div className="grid gap-8 mt-10 grid-cols-3 items-center justify-items-center mb-12">
             <div>
-            <img
+            <Image
               alt="Team member"
               className="w-36 h-auto aspect-[1/1] overflow-hidden object-cover object-center"
               height="300"
@@ -16,7 +18,7 @@ export default function Certifications() {
             />
             </div>
             <div>
-            <img
+            <Image
               alt="Team member"
               className="w-36 h-auto aspect-[1/1] overflow-hidden object-cover object-center"
               height="300"
@@ -25,7 +27,7 @@ export default function Certifications() {
             />
             </div>
             <div>
-            <img
+            <Image
               alt="Team member"
               className="w-36 h-auto aspect-[1/1] overflow-hidden object-cover object-center"
               height="300"

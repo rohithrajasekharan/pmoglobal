@@ -48,8 +48,9 @@ export default function Navbar(props: ComponentProps) {
                   <li className="my-8 text-lg text-white">
                     <Link href="#">Spotlight</Link>
                   </li>
+                  
                   <li className="my-8 text-lg text-white">
-                    <Link href="#">Careers</Link>
+                    <Link href="/contact">Contact</Link>
                   </li>
                 </ul>
               </SheetDescription>
@@ -88,12 +89,6 @@ export default function Navbar(props: ComponentProps) {
             Spotlight
           </Link>
         </li>
-        <li>|</li>
-        <li>
-          <Link className="text-sm lg:text-base" href="#">
-            Careers
-          </Link>
-        </li>
       </ul>
       <div className="flex items-center space-x-4">
         <Link href="#">
@@ -105,9 +100,10 @@ export default function Navbar(props: ComponentProps) {
         <Link href="#">
           <LinkedinIcon className="w-5 h-5 text-white" />
         </Link>
+        <Link href="/contact">
         <Button className="text-sm lg:text-base bg-red-600 text-white px-4 py-2 rounded">
           Contact Us
-        </Button>
+        </Button></Link>
       </div>
     </nav>
   );

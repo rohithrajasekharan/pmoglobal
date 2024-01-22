@@ -1,4 +1,5 @@
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 export default function News() {
   return (
@@ -10,16 +11,16 @@ export default function News() {
       <div className="grid gap-4 justify-center">
         <div className="grid grid-cols-1 md:grid-cols-7 justify-start items-start mx-auto max-w-4xl">
           <div className="col-span-3 justify-center items-center mb-4">
-            <img
+            <Image
               alt="News image"
               className="w-full h-50 object-cover object-top"
-              height="200"
+              height={500}
               src="/blog1.png"
               style={{
                 aspectRatio: "200/150",
                 objectFit: "cover",
               }}
-              width="150"
+              width={700}
             />
           </div>
           <div className="col-span-1 justify-center items-start">
@@ -45,16 +46,16 @@ export default function News() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-7 justify-start items-start mx-auto max-w-4xl">
           <div className="col-span-3 justify-center items-center mb-4">
-            <img
+            <Image
               alt="News image"
               className="w-full h-50 object-cover object-top"
-              height="200"
+              height={500}
               src="/blog2.png"
               style={{
                 aspectRatio: "200/150",
                 objectFit: "cover",
               }}
-              width="150"
+              width={700}
             />
           </div>
           <div className="col-span-1 justify-center items-start">
@@ -80,16 +81,16 @@ export default function News() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-7 justify-start items-start mx-auto max-w-4xl">
           <div className="col-span-3 justify-center items-center mb-4">
-            <img
+            <Image
               alt="News image"
               className="w-full h-50 object-cover object-top"
-              height="200"
+              height={500}
               src="/blog3.png"
               style={{
                 aspectRatio: "200/150",
                 objectFit: "cover",
               }}
-              width="150"
+              width={700}
             />
           </div>
           <div className="col-span-1 justify-center items-start">

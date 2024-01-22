@@ -1,4 +1,5 @@
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 export default function Projects() {
     return (
@@ -9,7 +10,7 @@ export default function Projects() {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-4 lg:gap-6 xl:gap-8 items-start mt-8">
             <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -22,7 +23,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -35,7 +36,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -48,7 +49,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}
@@ -61,7 +62,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="relative group grid [grid-template-areas:stack] overflow-hidden rounded-lg text-left">
-              <img
+              <Image
                 alt="Project image"
                 className="[grid-area:stack] object-cover w-full aspect-[1.5/2]"
                 height={500}

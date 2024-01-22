@@ -1,5 +1,4 @@
 "use client";
-import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -8,11 +7,12 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
+import Image from "next/image";
 
 export default function Client() {
   return (
     <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
-      <img
+      <Image
         alt="Background"
         className="absolute inset-0 object-cover w-full h-full"
         height={400}
@@ -41,12 +41,12 @@ export default function Client() {
           <CarouselContent>
             {Array.from({ length: 10 }).map((_, index) => (
               <CarouselItem key={index} className="basis-1/3 sm:basis-1/3 md:basis-1/5 lg:basis-1/6">
-                <img
+                <Image
                   alt={`client${index+1}`}
                   className="w-32 h-32"
-                  height='auto'
+                  height={260}
                   src={`/client${index+1}.png`}
-                  width={60}
+                  width={260}
                 />
               </CarouselItem>
             ))}

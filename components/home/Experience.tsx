@@ -1,16 +1,14 @@
+import Image from "next/image";
+
 export default function Component() {
   return (
     <div key="1" className="relative bg-white w-full">
-      <img
+      <Image
         alt="Background Image"
         className="object-cover w-full h-full bg-gradient-to-b from-[rgba(0,0,0,0.5)] to-transparent"
-        height={250}
+        height={1000}
         src="/experience_bg.png"
-        style={{
-          aspectRatio: "500/250",
-          objectFit: "cover",
-        }}
-        width={500}
+        width={1400}
       />
       <div className="flex items-center justify-center">
         <div className="w-[90%] sm:w-[90%] md:w-[90%] lg:w-[70%] bg-white p-6 md:p-[5%] rounded-lg md:mt-[-12rem]">
@@ -29,12 +27,12 @@ export default function Component() {
               </p>
             </div>
             <div className="w-full h-auto">
-              <img
+              <Image
                 alt="Placeholder"
                 className="aspect-[4/3] overflow-hidden rounded-lg object-cover object-center min-h-[300px]"
-                height="auto"
+                height={300}
                 src="/speaking_experience.png"
-                width="400"
+                width={400}
               />
             </div>
           </div>

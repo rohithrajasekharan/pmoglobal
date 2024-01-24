@@ -46,7 +46,7 @@ export default function Navbar(props: ComponentProps) {
                     <Link href="/projects">Our Projects</Link>
                   </li>
                   <li className="my-8 text-lg text-white">
-                    <Link href="#">Spotlight</Link>
+                    <Link href="/spotlight">Spotlight</Link>
                   </li>
                   
                   <li className="my-8 text-lg text-white">
@@ -85,7 +85,7 @@ export default function Navbar(props: ComponentProps) {
         </li>
         <li>|</li>
         <li>
-          <Link className="text-sm lg:text-base" href="#">
+          <Link className="text-sm lg:text-base" href="/spotlight">
             Spotlight
           </Link>
         </li>

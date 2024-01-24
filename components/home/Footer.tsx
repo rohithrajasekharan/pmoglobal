@@ -22,7 +22,7 @@ export default function Footer() {
       <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 bottom-0">
         <div className="py-6 px-6">
           <a className="flex items-center" href="#">
-            <Image alt="PMO Global Logo" className="h-8 mb-10" src="/logo_main.png" width={100} height={100}/>
+            <Image alt="PMO Global Logo" className="h-8 w-auto mb-10" src="/logo_main.png" width={100} height={100}/>
           </a>
           <div className="mt-4 space-y-4">
             <div className="flex items-center">

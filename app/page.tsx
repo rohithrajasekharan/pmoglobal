@@ -1,4 +1,3 @@
-"use client"
 import Banner from "@/components/home/Banner";
 import Expertise from "@/components/home/Expertise";
 import Experience from "@/components/home/Experience";

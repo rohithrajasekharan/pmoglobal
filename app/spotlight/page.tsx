@@ -1,4 +1,3 @@
-"use client"
 import Banner from "@/components/spotlight/Banner";
 import Blogs from "@/components/spotlight/Blogs";
 import { createClient } from "contentful";

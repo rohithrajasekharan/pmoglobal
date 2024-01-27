@@ -1,3 +1,4 @@
+"use client"
 import Banner from "@/components/article/Banner";
 import BlogPost from "@/components/article/BlogPost";
 import { createClient } from "contentful";

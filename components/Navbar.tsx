@@ -60,31 +60,31 @@ export default function Navbar(props: ComponentProps) {
         </Sheet>
       </div>
       <ul className="sm:flex flex-wrap items-center space-x-2 lg:space-x-4 text-white hidden">
-        <li>
+        <li className={props.selected=="home"?"border-b-2 border-white ":""}>
           <Link className="text-sm lg:text-base" href="/">
             Home
           </Link>
         </li>
         <li>|</li>
-        <li>
+        <li className={props.selected=="about"?"border-b-2 border-white ":""}>
           <Link className="text-sm lg:text-base" href="/about">
             About Us
           </Link>
         </li>
         <li>|</li>
-        <li>
+        <li className={props.selected=="expertise"?"border-b-2 border-white ":""}>
           <Link className="text-sm lg:text-base" href="/expertise">
             Our Expertise
           </Link>
         </li>
         <li>|</li>
-        <li>
+        <li className={props.selected=="projects"?"border-b-2 border-white ":""}>
           <Link className="text-sm lg:text-base" href="/projects">
             Our Projects
           </Link>
         </li>
         <li>|</li>
-        <li>
+        <li className={props.selected=="spotlight"?"border-b-2 border-white ":""}>
           <Link className="text-sm lg:text-base" href="/spotlight">
             Spotlight
           </Link>

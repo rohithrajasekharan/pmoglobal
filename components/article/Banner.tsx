@@ -26,7 +26,7 @@ const Banner: React.FC<BlogProps> = async ({ data }) => {
         backgroundImage: "url(/spotlight_banner_bg.png)",
       }}
     >
-      <Navbar/>
+      <Navbar selected="spotlight"/>
         <div className="flex items-center mt-[2rem]">
           <div className="max-w-[1200px] container items-start space-y-8 mx-[2%] sm:mx-[5%] md:mx-[10%] lg:mx-[10%] pb-4">
           <BackButton className="cursor-pointer"/>

@@ -8,7 +8,7 @@ export default function Banner() {
         backgroundImage: "url(/projects_banner_bg.png)",
       }}
     >
-      <Navbar/>
+      <Navbar selected="projects"/>
       <div className="flex items-center justify-center h-[600px]">
         <div className="text-center m-4">
           <div className="inline-flex items-center px-3 py-1 text-sm font-medium text-white bg-gray-200 bg-opacity-10 border-l-4 border-red-500 mb-2">

@@ -1,12 +1,37 @@
+"use client";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
 
 interface IconProps {
   className?: string;
 }
 
 export default function ContactForm() {
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    city: "",
+    message: "",
+  });
+  const handleChange = (
+    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setData({ ...data, [event.target.name]: event.target.value });
+  };
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+    console.log(data);
+    setData({
+      name: "",
+      email: "",
+      phone: "",
+      city: "",
+      message: "",
+    })
+  };
   return (
     <div className="bg-[#1e1e1e] w-full py-16 px-8 text-white max-w-[900px] m-10">
       <div className="text-center">
@@ -41,28 +66,46 @@ export default function ContactForm() {
           <form className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Input
+                value={data.name}
+                name="name"
+                onChange={handleChange}
                 className="bg-[#1e1e1e] text-white border border-[#333333]"
                 placeholder="Your name*"
               />
               <Input
+                value={data.email}
+                name="email"
+                onChange={handleChange}
                 className="bg-[#1e1e1e] text-white border border-[#333333]"
                 placeholder="Email*"
                 type="email"
               />
               <Input
+                value={data.phone}
+                name="phone"
+                onChange={handleChange}
                 className="bg-[#1e1e1e] text-white border border-[#333333]"
                 placeholder="Phone Number*"
               />
               <Input
+                value={data.city}
+                name="city"
+                onChange={handleChange}
                 className="bg-[#1e1e1e] text-white border border-[#333333]"
                 placeholder="City*"
               />
             </div>
             <Textarea
+              value={data.message}
+              name="message"
+              onChange={handleChange}
               className="bg-[#1e1e1e] text-white border border-[#333333]"
               placeholder="Your Message"
             />
-            <Button className="bg-red-600 hover:bg-red-700 border-none rounded-none min-w-[160px]">
+            <Button
+              className="bg-red-600 hover:bg-red-700 border-none rounded-none min-w-[160px]"
+              onClick={handleSubmit}
+            >
               Submit
             </Button>
           </form>
@@ -95,7 +138,7 @@ function MailboxIcon(props: IconProps) {
 function MapPinIcon(props: IconProps) {
   return (
     <svg
-    {...props}
+      {...props}
       width="63"
       height="63"
       viewBox="0 0 63 63"

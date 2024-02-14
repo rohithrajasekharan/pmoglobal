@@ -36,7 +36,7 @@ export default function Component() {
               />
             </div>
           </div>
-          <section className="w-[80%] bg-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8 mt-0 sm:mt-0 md:mt-0 lg:mt-[-3rem] py-4 pr-4 rounded-lg relative z-10">
+          <section className="w-[80%] bg-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8 mt-0 sm:mt-0 mx-auto sm:mx-0 md:mt-0 lg:mt-[-3rem] py-4 pr-4 rounded-lg relative z-10">
             <div className="bg-black text-white p-4 rounded-lg flex items-center justify-center">
               <p className="font-semibold text-sm text-center">
                 New Build EPC Solutions

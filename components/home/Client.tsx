@@ -24,7 +24,7 @@ export default function Client() {
         width={1200}
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
-        <div className="inline-flex items-center justify-center px-3 py-1 text-sm text-black bg-gray-200 border-l-4 border-red-500 mb-12">
+        <div className="inline-flex items-center justify-center px-3 py-1 text-sm text-black bg-gray-200 border-l-4 border-[#DC1E00] mb-12">
           We Work With
         </div>
         <Carousel

@@ -1,8 +1,8 @@
 export default function MissionVision() {
     return (
       <div className="flex flex-col md:flex-row gap-4 md:gap-8 p-4 md:p-8 mt-[-120px] mb-[100px] z-30">
-        <div className="bg-black text-white rounded-lg p-4 md:p-8 max-w-[350px] min-h-[200px]">
-          <div className="border-l-4 border-red-500 pl-2">
+        <div className="text-white rounded-lg p-4 md:p-8 max-w-[350px] min-h-[200px]" style={{background:'url(/black_pattern.png)',backgroundSize:'cover'}}>
+          <div className="border-l-4 border-[#DC1E00] pl-2">
             <h2 className="text-xl font-bold">Our Mission</h2>
           </div>
           <p className="mt-2 text-gray-200 text-sm">
@@ -11,8 +11,8 @@ export default function MissionVision() {
            of choice.
           </p>
         </div>
-        <div className="bg-black text-white rounded-lg p-4 md:p-8 max-w-[350px] min-h-[200px]">
-          <div className="border-l-4 border-red-500 pl-2">
+        <div className="text-white rounded-lg p-4 md:p-8 max-w-[350px] min-h-[200px]"style={{background:'url(/black_pattern.png)',backgroundSize:'cover'}}>
+          <div className="border-l-4 border-[#DC1E00] pl-2">
             <h2 className="text-xl font-bold">Our Vision</h2>
           </div>
           <p className="mt-2 text-gray-200 text-sm">

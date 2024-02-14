@@ -11,7 +11,7 @@ export default function Banner() {
       <Navbar selected="expertise"/>
       <div className="flex items-center justify-center h-[600px]">
         <div className="text-center m-4">
-          <div className="inline-flex items-center px-3 py-1 text-sm font-medium text-white bg-gray-200 bg-opacity-10 border-l-4 border-red-500 mb-2">
+          <div className="inline-flex items-center px-3 py-1 text-sm font-medium text-white bg-gray-200 bg-opacity-10 border-l-4 border-[#DC1E00] mb-2">
           Expertise
         </div>
             <h1 className="text-3xl lg:text-5xl text-white font-bold max-w-[600px] mx-auto my-6">

@@ -1,6 +1,7 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 interface IconProps {
   className?: string;
@@ -39,44 +40,45 @@ export default function Footer() {
             <h2 className="mb-6 text-sm font-semibold">Sitemap</h2>
             <ul className="text-gray-400">
               <li className="mb-4">
-                <a className="hover:underline" href="#">
+                <Link href="/about">
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a className="hover:underline" href="#">
+                <Link href="/expertise">
                   Our Expertise
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a className="hover:underline" href="#">
+                <Link href="/projects">
                   Our Projects
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a className="hover:underline" href="#">
+                <Link href="/spotlight">
                   Spotlight
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="hover:underline" href="#">
-                  Careers
-                </a>
+                <Link href="/contact">
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
           <div className="py-6 px-6">
             <h2 className="mb-6 text-sm font-semibold">Subscribe</h2>
             <form action="#" className="flex flex-col space-y-4" method="POST">
-              <Input
+              {/* <Input
                 className=" max-w-[215px] px-4 py-2 leading-tight text-gray-700 bg-white border border-gray-300 rounded shadow appearance-none focus:outline-none focus:shadow-outline w-full"
                 placeholder="Email here"
                 type="email"
-              />
+              /> */}
               <div className="flex space-x-4">
-                <Button className="bg-red-600 hover:bg-red-700">
+                {/* <Button className="bg-[#DC1E00]
+ hover:bg-red-700 rounded-none p-6">
                   Send Now
-                </Button>
+                </Button> */}
                 <a className="text-gray-400 hover:text-white self-center" href="#">
                   <LinkedinIcon className="h-5 w-5" />
                 </a>

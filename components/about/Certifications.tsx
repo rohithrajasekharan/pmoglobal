@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Certifications() {
   return (
     <section className="w-full bg-[#F4F4F4] text-center pb-10">
-      <div className="inline-block bg-gray-200 border-l-4 border-red-500 px-3 py-2 text-sm font-medium mb-10">
+      <div className="inline-block bg-gray-200 border-l-4 border-[#DC1E00] px-3 py-2 text-sm font-medium mb-10">
         Certification
       </div>
       <div className="container px-4 md:px-6 max-w-[600px]">

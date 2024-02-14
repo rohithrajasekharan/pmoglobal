@@ -36,28 +36,28 @@ export default function ContactForm() {
     <div className="bg-[#1e1e1e] w-full py-16 px-8 text-white max-w-[900px] m-10">
       <div className="text-center">
         <div className="md:col-span-1">
-          <div className="inline-flex items-center justify-center px-3 py-1 text-sm font-medium text-white bg-gray-200 bg-opacity-10 border-l-4 border-red-500 mb-2">
+          <div className="inline-flex items-center justify-center px-3 py-1 text-sm font-medium text-white bg-gray-200 bg-opacity-10 border-l-4 border-[#DC1E00] mb-2">
             Contact
           </div>
           <h2 className="text-2xl font-semibold mb-4">Get in touch with us</h2>
-          <p className="mb-4 text-sm max-w-[60%] mx-auto">
+          <p className="mb-4 text-sm max-w-[500px] mx-auto">
             Whether you have a question, need more information about our
             services, or want to discuss a potential collaboration, our team is
             here to assist you. Reach out to us via the contact details provided
             or simply fill out the contact form below, and we will get back to
             you promptly. Let us connect and explore the possibilities together!
           </p>
-          <div className="flex flex-wrap space-x-4 justify-center">
-            <div className="text-center ">
-              <MailboxIcon className="mx-12 my-4" />
+          <div className="space-x-4 justify-center grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="text-center sm:text-center">
+              <MailboxIcon className="mx-auto my-4" />
               <span className="text-sm whitespace-pre-wrap">{`contact@logistics.com`}</span>
             </div>
-            <div className="text-center ">
-              <PhoneIcon className="mx-12 my-4" />
+            <div className="text-center sm:text-center">
+              <PhoneIcon className="mx-auto my-4" />
               <span className="text-sm whitespace-pre-wrap">{`(00) 112 365 489`}</span>
             </div>
-            <div className="text-center ">
-              <MapPinIcon className="mx-12 my-4" />
+            <div className="text-center sm:text-center">
+              <MapPinIcon className="mx-auto my-4" />
               <span className="text-sm whitespace-pre-wrap">{`PMO Global, Office 906,\nCapital Golden Tower,\nBusiness Bay, P.O. Box\n393317, Dubai-UAE`}</span>
             </div>
           </div>
@@ -103,7 +103,8 @@ export default function ContactForm() {
               placeholder="Your Message"
             />
             <Button
-              className="bg-red-600 hover:bg-red-700 border-none rounded-none min-w-[160px]"
+              className="bg-[#DC1E00]
+ hover:bg-red-700 border-none rounded-none min-w-[160px] p-6"
               onClick={handleSubmit}
             >
               Submit
@@ -145,10 +146,10 @@ function MapPinIcon(props: IconProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle cx="31.5" cy="31.5" r="31" fill="#1B1B1B" stroke="#1B1B1B" />
+      <circle cx="31.5" cy="31.5" r="31" fill="#0E0E0E" stroke="black" />
       <path
         d="M31.875 21C27.526 21 24 24.526 24 28.875C24 30.5875 24.5614 32.1589 25.4946 33.4458C25.5113 33.4766 25.514 33.5111 25.533 33.5406L30.783 41.4156C31.0265 41.7808 31.4366 42 31.875 42C32.3134 42 32.7235 41.7808 32.967 41.4156L38.217 33.5406C38.2364 33.5111 38.2387 33.4766 38.2554 33.4458C39.1886 32.1589 39.75 30.5875 39.75 28.875C39.75 24.526 36.224 21 31.875 21ZM31.875 31.5C30.4253 31.5 29.25 30.3247 29.25 28.875C29.25 27.4253 30.4253 26.25 31.875 26.25C33.3247 26.25 34.5 27.4253 34.5 28.875C34.5 30.3247 33.3247 31.5 31.875 31.5Z"
-        fill="white"
+        stroke="#EAEAEA"
       />
     </svg>
   );

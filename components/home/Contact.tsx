@@ -11,7 +11,7 @@ export default function Contact() {
     <div className="bg-[#1e1e1e] w-full py-16 px-8 text-white">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
         <div className="md:col-span-1">
-        <div className="inline-flex items-center justify-center px-3 py-1 text-sm font-medium text-white bg-gray-200 bg-opacity-10 border-l-4 border-red-500 mb-2">
+        <div className="inline-flex items-center justify-center px-3 py-1 text-sm font-medium text-white bg-gray-200 bg-opacity-10 border-l-4 border-[#DC1E00] mb-2">
           Contact
         </div>
           <h2 className="text-2xl font-semibold mb-4">Get in touch with us</h2>
@@ -60,7 +60,8 @@ export default function Contact() {
               className="bg-[#1e1e1e] text-white border border-[#333333]"
               placeholder="Your Message"
             />
-            <Button className="bg-red-600 hover:bg-red-700">
+            <Button className="bg-[#DC1E00]
+ hover:bg-red-700 rounded-none p-6">
               Submit Message
             </Button>
           </form>

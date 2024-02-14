@@ -76,7 +76,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <Button className="text-sm lg:text-base bg-[#2B2B2B] text-white py-2 rounded mt-8 mb-12">More Work</Button>
+        <Button className="text-sm lg:text-base bg-[#2B2B2B] text-white p-6 rounded-none mt-8 mb-12">More Work</Button>
         <div className="min-h-[400px] w-full mt-[-13%] hidden md:block" style={{background: 'url(/projects_bg.png)'}}></div>
       </section>
     )

@@ -17,8 +17,8 @@ export default function Who() {
           />
         </div>
         <div className="flex items-center justify-center p-8">
-          <div className="max-w-md">
-          <p className="inline-block px-3 py-1 text-sm tracking-tighter border-l-4 border-red-500 bg-gray-200">
+          <div className="max-w-md" style={{backgroundImage:'url(/Pattern.png)',backgroundPosition:'0px 10px',backgroundSize:'contain',backgroundRepeat:'no-repeat'}}>
+          <p className="inline-block px-3 py-1 text-sm tracking-tighter border-l-4 border-[#DC1E00] bg-gray-200">
             Who We Are
           </p>
             <p className="mt-4 text-sm text-gray-700">

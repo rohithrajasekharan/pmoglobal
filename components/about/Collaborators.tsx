@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Collaborators() {
   return (
     <section className="w-full bg-[#F4F4F4] text-center">
-      <div className="inline-block bg-gray-200 border-l-4 border-red-500 px-3 py-2 text-sm font-medium mb-10">
+      <div className="inline-block bg-gray-200 border-l-4 border-[#DC1E00] px-3 py-2 text-sm font-medium mb-10">
         Collaborators
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[80%] mx-auto">

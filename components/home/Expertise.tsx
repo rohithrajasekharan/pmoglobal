@@ -10,7 +10,7 @@ export default function Expertise() {
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
         <div className="space-y-3">
-          <p className="inline-block px-3 py-1 text-sm tracking-tighter border-l-4 border-red-500 bg-gray-200">
+          <p className="inline-block px-3 py-1 text-sm tracking-tighter border-l-4 border-[#DC1E00] bg-gray-200">
             Our Expertise
           </p>
           <h2 className="mx-auto max-w-[700px] text-gray-500 md:text-2xl/relaxed lg:text-2xl/relaxed xl:text-2xl/relaxed dark:text-gray-400">
@@ -18,31 +18,31 @@ export default function Expertise() {
           </h2>
         </div>
         <div className="grid w-full grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-          <Card className="bg-black from-gray-200 to-gray-400">
+          <Card className="from-gray-200 to-gray-400 rounded-none" style={{background:"url(/black_pattern.png)"}}>
             <CardContent className="flex flex-col items-center space-y-3 p-6">
               <PlaneIcon className="w-8 h-8" />
               <h3 className="text-md text-white">Marine</h3>
             </CardContent>
           </Card>
-          <Card className="bg-black from-gray-200 to-gray-400">
+          <Card className="from-gray-200 to-gray-400 rounded-none" style={{background:"url(/black_pattern.png)"}}>
             <CardContent className="flex flex-col items-center space-y-3 p-6">
               <GlobeIcon className="w-8 h-8" />
               <h3 className="text-md text-white">Oil and Gas</h3>
             </CardContent>
           </Card>
-          <Card className="bg-black from-gray-200 to-gray-400">
+          <Card className="from-gray-200 to-gray-400 rounded-none" style={{background:"url(/black_pattern.png)"}}>
             <CardContent className="flex flex-col items-center space-y-3 p-6">
               <GaugeIcon className="w-8 h-8" />
               <h3 className="text-md text-white">Renewables</h3>
             </CardContent>
           </Card>
-          <Card className="bg-black from-gray-200 to-gray-400">
+          <Card className="from-gray-200 to-gray-400 rounded-none" style={{background:"url(/black_pattern.png)"}}>
             <CardContent className="flex flex-col items-center space-y-3 p-6">
               <WrenchIcon className="w-8 h-8" />
               <h3 className="text-md text-white">Industrial</h3>
             </CardContent>
           </Card>
-          <Card className="bg-black from-gray-200 to-gray-400">
+          <Card className="from-gray-200 to-gray-400 rounded-none" style={{background:"url(/black_pattern.png)"}}>
             <CardContent className="flex flex-col items-center space-y-3 p-6">
               <LightbulbIcon className="w-8 h-8" />
               <h3 className="text-md text-white">Modular</h3>
@@ -51,7 +51,8 @@ export default function Expertise() {
         </div>
         <div className="mt-8">
           <Link href="/expertise">
-            <Button className="text-sm lg:text-base bg-red-600 text-white px-4 py-2 rounded">
+            <Button className="text-sm lg:text-base bg-[#DC1E00]
+ text-white p-6 rounded-none">
               Our Expertise
             </Button>
           </Link>

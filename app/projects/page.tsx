@@ -1,3 +1,4 @@
+import Contact from "@/components/home/Contact";
 import Banner from "@/components/projects/Banner";
 import Deliveries from "@/components/projects/Deliveries";
 import Gallery from "@/components/projects/Gallery";
@@ -10,6 +11,7 @@ export default function Projects() {
       <Deliveries />
       <Services />
       <Gallery />
+      <Contact />
     </main>
   );
 }

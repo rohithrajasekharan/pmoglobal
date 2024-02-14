@@ -14,7 +14,8 @@ export default function Banner() {
         <Navbar selected="home" />
         <div className="flex items-center h-[80vh]">
           <div className="container flex flex-col items-start space-y-4 mx-[2%] sm:mx-[5%] md:mx-[10%] lg:mx-[10%] pb-4">
-            <div className="bg-black bg-opacity-50 text-white px-2 py-1 text-sm lg:text-base border-l-4 border-red-600">
+            <div className="bg-black bg-opacity-50 text-white px-2 py-1 text-sm lg:text-base border-l-4 border-[#DC1E00]
+">
               Synergy Through Collaboration
             </div>
             <h1 className="text-3xl lg:text-5xl text-white font-bold">
@@ -26,7 +27,8 @@ export default function Banner() {
               your ideas into accomplishments.
             </p>
             <Link href="/about">
-              <Button className="text-sm lg:text-base bg-red-600 text-white py-2 rounded">
+              <Button className="text-sm lg:text-base bg-[#DC1E00]
+ text-white p-6 rounded-none">
                 Our Vision
               </Button>
             </Link>

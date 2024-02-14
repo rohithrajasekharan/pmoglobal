@@ -14,7 +14,7 @@ function getMonthName(monthIndex: any) {
 export default function News(props:any) {
   return (
     <div className="bg-white py-12 px-8">
-      <div className="w-fit items-center justify-center px-3 py-1 text-sm text-black bg-gray-200 border-l-4 border-red-500 mb-4 mx-auto">
+      <div className="w-fit items-center justify-center px-3 py-1 text-sm text-black bg-gray-200 border-l-4 border-[#DC1E00] mb-4 mx-auto">
         Our Blog
       </div>
       <h2 className="text-2xl font-bold mb-12 text-center">Our Latest News</h2>

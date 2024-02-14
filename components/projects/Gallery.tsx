@@ -11,7 +11,7 @@ import Image from "next/image";
 export default function Gallery() {
   return (
     <div className="w-full bg-zinc-800 p-8">
-      <div className="px-3 py-1 text-sm font-medium bg-white bg-opacity-90 border-l-4 border-red-500 mb-2 mx-auto w-fit">
+      <div className="px-3 py-1 text-sm font-medium bg-white bg-opacity-90 border-l-4 border-[#DC1E00] mb-2 mx-auto w-fit">
         Projects Gallery
       </div>
       <Carousel

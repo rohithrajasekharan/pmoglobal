@@ -20,11 +20,11 @@ interface ComponentProps {
 
 export default function Navbar(props: ComponentProps) {
   return (
-    <nav className="py-4 flex justify-between items-center bg-black bg-opacity-50 px-[10%]">
-      <div className="block sm:hidden">
+    <nav className="flex justify-between items-center bg-black bg-opacity-50 px-[10%]">
+      <div className="block sm:hidden mr-[30px]">
         <Sheet>
           <SheetTrigger asChild>
-            <MenuIcon />
+            <MenuIcon/>
           </SheetTrigger>
           <SheetContent
             side="top"
@@ -101,7 +101,8 @@ export default function Navbar(props: ComponentProps) {
           <LinkedinIcon className="w-5 h-5 text-white" />
         </Link>
         <Link href="/contact">
-        <Button className="text-sm lg:text-base bg-red-600 text-white px-4 py-2 rounded">
+        <Button className="text-sm lg:text-base bg-[#DC1E00]
+ text-white p-6 rounded-none h-14">
           Contact Us
         </Button></Link>
       </div>

@@ -18,7 +18,7 @@ interface IconProps {
 export default function Team() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-[#F4F4F4] text-center">
-      <div className="inline-block bg-gray-200 border-l-4 border-red-500 px-3 py-2 text-sm font-medium mb-10">
+      <div className="inline-block bg-gray-200 border-l-4 border-[#DC1E00] px-3 py-2 text-sm font-medium mb-10">
         Our Team
       </div>
       <div className="container px-4 md:px-6">

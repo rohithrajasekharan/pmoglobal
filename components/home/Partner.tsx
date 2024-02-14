@@ -15,8 +15,9 @@ export default function Partner() {
           src="/partner.png"
           width={940}
         />
-        <div className="bg-cover bg-center flex-col items-start justify-center space-y-4 text-left max-w-[550px] ml-10 md:py-[150px] ">
-          <div className="bg-gray-200 border-l-4 border-red-500 px-4 py-2 text-black text-sm max-w-[120px]">
+        <div className="bg-[#F4F4F4] flex-col items-start justify-center text-left md:py-[150px] ml-[-20%] z-[-1] py-4" style={{backgroundImage:'url(/Pattern.png)',backgroundPosition:'0px 50px',backgroundSize:'contain',backgroundRepeat:'no-repeat'}}>
+          <div className="ml-[20%] space-y-4">
+          <div className="bg-gray-200 border-l-4 border-[#DC1E00] px-4 py-2 text-black text-sm max-w-[120px]">
             Choose Us
           </div>
           <h2 className="text-3xl font-bold text-black">
@@ -61,6 +62,7 @@ export default function Partner() {
                 Customized Experience
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>

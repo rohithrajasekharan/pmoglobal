@@ -7,15 +7,15 @@ interface IconProps {
 
 export default function Component() {
   return (
-    <header className="flex justify-between items-center p-6 bg-[#2B2B2B] px-10">
-      <div className="flex items-center w-full sm:w-auto mb-4 sm:mb-0 px-[8%]">
+    <header className="flex justify-between items-center py-2 bg-[#2B2B2B] px-[10%]">
+      <div className="flex items-center w-full sm:w-auto mb-4 sm:mb-0">
         <Link href="/">
-          <Image width={90} height={46} src="/logo.svg" alt="" priority />
+          <Image width={120} height={72} src="/pmo.svg" alt="" priority />
         </Link>
       </div>
       <nav className="flex space-x-4">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center">
+          <div className="w-8 h-8 bg-[#DC1E00] rounded-full flex items-center justify-center">
             <MailIcon className="w-4 h-4 text-white stroke-1" />
           </div>
           <div className="hidden sm:flex flex-col">
@@ -26,7 +26,7 @@ export default function Component() {
           </div>
         </div>
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center">
+          <div className="w-8 h-8 bg-[#DC1E00] rounded-full flex items-center justify-center">
             <PhoneIcon className="w-4 h-4 text-white stroke-1" />
           </div>
           <div className="hidden sm:flex flex-col">

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "../ui/button";
 import Image from "next/image";
 
@@ -76,7 +77,9 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <Link href="/projects">
         <Button className="text-sm lg:text-base bg-[#2B2B2B] text-white p-6 rounded-none mt-8 mb-12">More Work</Button>
+        </Link>
         <div className="min-h-[400px] w-full mt-[-13%] hidden md:block" style={{background: 'url(/projects_bg.png)'}}></div>
       </section>
     )

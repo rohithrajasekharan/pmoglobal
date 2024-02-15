@@ -15,7 +15,7 @@ export default function Component() {
       </div>
       <nav className="flex space-x-4">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-[#DC1E00] rounded-full flex items-center justify-center">
+          <div className="w-12 h-12 bg-[#DC1E00] rounded-full flex items-center justify-center">
             <MailIcon className="w-4 h-4 text-white stroke-1" />
           </div>
           <div className="hidden sm:flex flex-col">
@@ -26,7 +26,7 @@ export default function Component() {
           </div>
         </div>
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-[#DC1E00] rounded-full flex items-center justify-center">
+          <div className="w-12 h-12 bg-[#DC1E00] rounded-full flex items-center justify-center">
             <PhoneIcon className="w-4 h-4 text-white stroke-1" />
           </div>
           <div className="hidden sm:flex flex-col">
@@ -50,7 +50,7 @@ function MailIcon(props: IconProps) {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="white"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -70,7 +70,7 @@ function PhoneIcon(props: IconProps) {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="white"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"

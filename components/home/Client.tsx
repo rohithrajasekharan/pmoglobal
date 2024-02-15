@@ -1,15 +1,34 @@
 "use client";
+import { useState, useEffect } from "react";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  type CarouselApi
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
+import { Button } from "../ui/button";
 
 export default function Client() {
+  const [api, setApi] = useState<CarouselApi>()
+  const [current, setCurrent] = useState(0)
+  const [count, setCount] = useState(0)
+ 
+  useEffect(() => {
+    if (!api) {
+      return
+    }
+ 
+    setCount(api.scrollSnapList().length)
+    setCurrent(api.selectedScrollSnap() + 1)
+ 
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap() + 1)
+    })
+  }, [api])
   return (
     <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
       <Image
@@ -28,6 +47,7 @@ export default function Client() {
           We Work With
         </div>
         <Carousel
+        setApi={setApi}
           plugins={[
             Autoplay({
               delay: 2000,

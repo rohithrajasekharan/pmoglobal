@@ -160,7 +160,7 @@ export default function Gallery() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-      <div className="flex mt-10">
+      <div className="flex mt-10 w-auto text-center justify-center">
         {Array.from(Array(count).keys()).map((i) => (
           <Button
             key={i}

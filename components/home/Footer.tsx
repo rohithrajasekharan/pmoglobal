@@ -28,12 +28,12 @@ export default function Footer() {
           <div className="mt-4 space-y-4">
             <div className="flex items-center">
               <MailboxIcon className="h-5 w-5 text-gray-400" />
-              <span className="text-sm whitespace-pre-wrap ml-4">{`Email\ncontact@logistics.com`}</span>
+              <span className="text-sm whitespace-pre-wrap ml-4">{`Email\nenquiries@pmo-global.com`}</span>
             </div>
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <PhoneIcon className="h-5 w-5 text-gray-400" />
               <span className="text-sm whitespace-pre-wrap ml-4">{`Call us:\n(00) 112 365 489`}</span>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="py-6 px-6">
@@ -67,7 +67,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="py-6 px-6">
-            <h2 className="mb-6 text-sm font-semibold">Subscribe</h2>
+            <h2 className="mb-6 text-sm font-semibold">Follow Us On</h2>
             <form action="#" className="flex flex-col space-y-4" method="POST">
               {/* <Input
                 className=" max-w-[215px] px-4 py-2 leading-tight text-gray-700 bg-white border border-gray-300 rounded shadow appearance-none focus:outline-none focus:shadow-outline w-full"
@@ -82,12 +82,12 @@ export default function Footer() {
                 <a className="text-gray-400 hover:text-white self-center" href="#">
                   <LinkedinIcon className="h-5 w-5" />
                 </a>
-                <a className="text-gray-400 hover:text-white self-center" href="#">
+                {/* <a className="text-gray-400 hover:text-white self-center" href="#">
                   <TwitterIcon className="h-5 w-5" />
                 </a>
                 <a className="text-gray-400 hover:text-white self-center" href="#">
                   <FacebookIcon className="h-5 w-5" />
-                </a>
+                </a> */}
               </div>
             </form>
           </div>

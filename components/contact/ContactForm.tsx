@@ -50,12 +50,12 @@ export default function ContactForm() {
           <div className="space-x-4 justify-center grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="text-center sm:text-center">
               <MailboxIcon className="mx-auto my-4" />
-              <span className="text-sm whitespace-pre-wrap">{`contact@logistics.com`}</span>
+              <span className="text-sm whitespace-pre-wrap">{`enquiries@pmo-global.com`}</span>
             </div>
-            <div className="text-center sm:text-center">
+            {/* <div className="text-center sm:text-center">
               <PhoneIcon className="mx-auto my-4" />
               <span className="text-sm whitespace-pre-wrap">{`(00) 112 365 489`}</span>
-            </div>
+            </div> */}
             <div className="text-center sm:text-center">
               <MapPinIcon className="mx-auto my-4" />
               <span className="text-sm whitespace-pre-wrap">{`PMO Global, Office 906,\nCapital Golden Tower,\nBusiness Bay, P.O. Box\n393317, Dubai-UAE`}</span>

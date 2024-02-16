@@ -21,11 +21,11 @@ export default function Component() {
           <div className="hidden sm:flex flex-col">
             <p className="font-semibold text-white">Email</p>
             <a className="text-white" href="#">
-              info@example.com
+            enquiries@pmo-global.com
             </a>
           </div>
         </div>
-        <div className="flex items-center space-x-2">
+        {/* <div className="flex items-center space-x-2">
           <div className="w-12 h-12 bg-[#DC1E00] rounded-full flex items-center justify-center">
             <PhoneIcon className="w-4 h-4 text-white stroke-1" />
           </div>
@@ -35,7 +35,7 @@ export default function Component() {
               123-456-7890
             </a>
           </div>
-        </div>
+        </div> */}
       </nav>
     </header>
   );

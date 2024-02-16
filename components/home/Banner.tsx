@@ -18,10 +18,10 @@ export default function Banner() {
 ">
               Synergy Through Collaboration
             </div>
-            <h1 className="text-3xl lg:text-5xl text-white font-bold">
-              We are PMO Global
+            <h1 className="text-5xl lg:text-6xl text-white font-bold">
+              We Are PMO Global
             </h1>
-            <p className="text-base lg:text-lg text-white max-w-[800px]">
+            <p className="text-base lg:text-lg text-white max-w-[600px]">
               Transforming visions into accomplishments. Explore our portfolio
               of successful projects and discover how PMO Global can transform
               your ideas into accomplishments.

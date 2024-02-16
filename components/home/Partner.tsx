@@ -17,7 +17,7 @@ export default function Partner() {
         />
         <div className="bg-[#F4F4F4] flex-col items-start justify-center text-left md:py-[150px] ml-[-20%] z-[-1] py-4" style={{backgroundImage:'url(/Pattern.png)',backgroundPosition:'0px 50px',backgroundSize:'contain',backgroundRepeat:'no-repeat'}}>
           <div className="ml-[20%] space-y-4">
-          <div className="bg-gray-200 border-l-4 border-[#DC1E00] px-4 py-2 text-black text-sm max-w-[120px]">
+          <div className="bg-gray-200 border-l-4 border-[#DC1E00] px-4 py-2 text-black text-sm max-w-fit">
             Choose Us
           </div>
           <h2 className="text-3xl font-bold text-black">
@@ -29,7 +29,7 @@ export default function Partner() {
             innovation, and reliability, tailoring our expertise to meet your
             unique needs.`}
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2 mt-[60px] space-y-4">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2 mt-[60px] space-y-4 max-w-[650px]">
             <div className="flex items-center text-black">
               <div className="bg-[#2B2B2B] rounded-full">
                 <UsersIcon className="h-8 w-8 text-white" />

@@ -23,12 +23,12 @@ export default function Contact() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <MailboxIcon className="h-6 w-6" />
-              <span className="text-sm whitespace-pre-wrap">{`Email\ncontact@logistics.com`}</span>
+              <span className="text-sm whitespace-pre-wrap">{`Email\nenquiries@pmo-global.com`}</span>
             </div>
-            <div className="flex items-center space-x-2">
+            {/* <div className="flex items-center space-x-2">
               <PhoneIcon className="h-6 w-6" />
               <span className="text-sm whitespace-pre-wrap">{`Call us:\n(00) 112 365 489`}</span>
-            </div>
+            </div> */}
             <div className="flex items-center space-x-2">
               <MapPinIcon className="h-6 w-6" />
               <span className="text-sm whitespace-pre-wrap">{`Mon - Sat 9.00 - 18.00\nSunday Closed`}</span>

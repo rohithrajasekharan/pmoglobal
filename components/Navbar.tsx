@@ -91,12 +91,12 @@ export default function Navbar(props: ComponentProps) {
         </li>
       </ul>
       <div className="flex items-center space-x-4">
-        <Link href="#">
+        {/* <Link href="#">
           <InstagramIcon className="w-5 h-5 text-white" />
         </Link>
         <Link href="#">
           <FacebookIcon className="w-5 h-5 text-white" />
-        </Link>
+        </Link> */}
         <Link href="#">
           <LinkedinIcon className="w-5 h-5 text-white" />
         </Link>

@@ -22,9 +22,6 @@ export default function Team() {
         Our Team
       </div>
       <div className="container px-4 md:px-6">
-        <h2 className=" font-bold tracking-tighter text-center text-3xl">
-          Meet Expert Team
-        </h2>
         <div className="grid gap-8 mt-10 md:grid-cols-2 lg:grid-cols-4 items-center justify-items-center">
           <div className="relative max-w-[80%]">
             <Image
@@ -40,7 +37,7 @@ export default function Team() {
                 <p className="text-gray-300 text-sm">CEO</p>
               </div>
               <div className="flex self-end">
-                <Link href="/">
+                <Link href="https://www.linkedin.com/in/john-thomas-04043475/">
                   <LinkedinIcon className="h-15 w-15 text-white absolute bottom-[75px] right-[-6px]" />
                 </Link>
                 <Dialog>
@@ -91,11 +88,11 @@ export default function Team() {
             />
             <div className="bottom-0 left-0 w-full bg-black bg-opacity-75 flex items-center justify-between px-4 py-2 text-left h-28">
               <div>
-                <h3 className="text-white font-bold">Mohammed Rajiv</h3>
+                <h3 className="text-white font-bold">Mohammed Rajiv Bavakutty</h3>
                 <p className="text-gray-300 text-sm">Operations Director</p>
               </div>
               <div className="flex self-end">
-                <Link href="/">
+                <Link href="https://www.linkedin.com/in/mohammed-rajiv-bavakutty-1b38251a/​">
                   <LinkedinIcon className="h-15 w-15 text-white absolute bottom-[75px] right-[-6px]" />
                 </Link>
                 <Dialog>
@@ -144,11 +141,11 @@ export default function Team() {
             />
             <div className="bottom-0 left-0 w-full bg-black bg-opacity-75 flex items-center justify-between px-4 py-2 text-left h-28">
               <div>
-                <h3 className="text-white font-bold">Jassim</h3>
+                <h3 className="text-white font-bold">Mohamed Jassim</h3>
                 <p className="text-gray-300 text-sm">Commercial Director</p>
               </div>
               <div className="flex self-end">
-                <Link href="/">
+                <Link href="https://www.linkedin.com/in/mohamed-j-a14b6879">
                   <LinkedinIcon className="h-15 w-15 text-white absolute bottom-[75px] right-[-6px]" />
                 </Link>
                 <Dialog>
@@ -201,11 +198,11 @@ export default function Team() {
             />
             <div className="bottom-0 left-0 w-full bg-black bg-opacity-75 flex items-center justify-between px-4 py-2 text-left h-28">
               <div>
-                <h3 className="text-white font-bold">Anwar</h3>
+                <h3 className="text-white font-bold">Anwar Sadath Ibrahim</h3>
                 <p className="text-gray-300 text-sm">Strategy & Control Director</p>
               </div>
               <div className="flex self-end">
-                <Link href="/">
+                <Link href="https://www.linkedin.com/in/anwarsi/">
                   <LinkedinIcon className="h-15 w-15 text-white absolute bottom-[75px] right-[-6px]" />
                 </Link>
                 <Dialog>

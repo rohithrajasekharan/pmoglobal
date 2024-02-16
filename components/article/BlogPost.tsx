@@ -71,8 +71,8 @@ export default function BlogPost(props: any) {
     <div className="p-8 mb-20 max-w-[1200px] flex flex-col self-start space-y-4 mx-[2%] sm:mx-[5%] md:mx-[10%] lg:mx-[10%] pb-4">
       {documentToReactComponents(data.fields.post, options)}
       <div className="border-y-2 border-[#D6D6D6] py-6 flex">
-        <InstagramIcon className="mr-5" />
-        <FacebookIcon className="mr-5" />
+        {/* <InstagramIcon className="mr-5" />
+        <FacebookIcon className="mr-5" /> */}
         <LinkedinIcon className="mr-5" />
       </div>
     </div>

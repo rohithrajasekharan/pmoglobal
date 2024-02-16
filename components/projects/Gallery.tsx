@@ -98,69 +98,11 @@ export default function Gallery() {
               </div>
             </div>
           </CarouselItem>
-          <CarouselItem>
-            <div className="flex flex-wrap justify-center">
-              <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
-                <Image
-                  alt="Project image"
-                  className="object-cover w-full"
-                  height={500}
-                  src="/gal1.png"
-                  width={300}
-                />
-              </div>
-              <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
-                <Image
-                  alt="Project image"
-                  className="object-cover w-full"
-                  height={500}
-                  src="/gal2.png"
-                  width={300}
-                />
-              </div>
-              <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
-                <Image
-                  alt="Project image"
-                  className="object-cover w-full"
-                  height={500}
-                  src="/gal3.png"
-                  width={300}
-                />
-              </div>
-              <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
-                <Image
-                  alt="Project image"
-                  className="object-cover w-full"
-                  height={500}
-                  src="/gal4.png"
-                  width={300}
-                />
-              </div>
-              <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
-                <Image
-                  alt="Project image"
-                  className="object-cover w-full"
-                  height={500}
-                  src="/gal5.png"
-                  width={300}
-                />
-              </div>
-              <div className="max-w-[280px] mx-4 my-4 sm:w-1/1 md:w-1/2 lg:w-1/3">
-                <Image
-                  alt="Project image"
-                  className="object-cover w-full"
-                  height={500}
-                  src="/gal6.png"
-                  width={300}
-                />
-              </div>
-            </div>
-          </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        {/* <CarouselPrevious />
+        <CarouselNext /> */}
       </Carousel>
-      <div className="flex mt-10 w-auto text-center justify-center">
+      {/* <div className="flex mt-10 w-auto text-center justify-center">
         {Array.from(Array(count).keys()).map((i) => (
           <Button
             key={i}
@@ -172,7 +114,7 @@ export default function Gallery() {
             onClick={() => api?.scrollTo(i)}
           />
         ))}
-        </div>
+        </div> */}
     </div>
   );
 }

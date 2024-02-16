@@ -13,7 +13,7 @@ export default function Expertise() {
           <p className="inline-block px-3 py-1 text-sm tracking-tighter border-l-4 border-[#DC1E00] bg-gray-200">
             Our Expertise
           </p>
-          <h2 className="mx-auto max-w-[700px] text-gray-500 md:text-2xl/relaxed lg:text-2xl/relaxed xl:text-2xl/relaxed dark:text-gray-400">
+          <h2 className="mx-auto text-black font-bold md:text-2xl/relaxed lg:text-2xl/relaxed xl:text-2xl/relaxed dark:text-gray-400">
             We offer a wide range of services to meet every type of need.
           </h2>
         </div>

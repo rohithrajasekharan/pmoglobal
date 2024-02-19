@@ -7,7 +7,7 @@ export default function FootPrints() {
         Our Footprints
       </div>
       <div className="w-full h-auto">
-        <Image height={1000} width={1000} alt="Placeholder" src="/map.png" className="mb-10"/>
+        <Image height={1500} width={1500} alt="Placeholder" src="/map.svg" className="mb-10"/>
       </div>
     </div>
   );

@@ -39,15 +39,15 @@ function BackIcon(props: IconProps) {
           d="M14.1484 10.6121L8.08437 10.6121"
           stroke="#2B2B2B"
           stroke-width="0.758008"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M10.6113 13.1388L8.08463 10.6121L10.6113 8.08541"
           stroke="#2B2B2B"
           stroke-width="0.758008"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     );
